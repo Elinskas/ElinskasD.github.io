@@ -1,0 +1,120 @@
+body {
+    font-family: 'Calibri', 'Calibri Lite', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.section {
+    padding: 0px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: #000;
+}
+    
+h2 {
+    margin-bottom: 30px;
+}
+
+.photo-section {
+    background-color: #000;
+}
+
+.photo-section .photo-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.photo-section .photo-container img {
+    max-width: 100%;
+    max-height: 150%;
+    filter: brightness(40%)
+}
+
+.photo-section .photo-container .photo-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #fff;
+}
+
+.bio-section {
+    background-color: #e0e0e0;
+    padding: 0 5%;
+}
+
+.bio-content {
+    display: flex;
+    align-items: center;
+}
+
+.bio-photo {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.bio-photo img {
+    width: 100%;
+}
+
+.bio-text {
+    flex: 2;
+    text-align: left;
+    font-size: 20px;
+}
+
+.music-section {
+    background-color: #d0d0d0;
+    padding: 50px 5%;
+}
+
+.skills-section {
+    background-color: #c0c0c0;
+    padding: 50px 5%;
+}
+
+.experience-section {
+    background-color: #b0b0b0;
+    padding: 50px 5%;
+    text-align: left;
+}
+
+.contact-section {
+    background-color: #a0a0a0;
+    padding: 50px 5%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
